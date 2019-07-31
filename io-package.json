@@ -1,0 +1,77 @@
+{
+	"common": {
+		"name": "aws-recognizer",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "AWSrecognizer",
+		"titleLang": {
+			"en": "AWSrecognizer",
+			"de": "AWSrecognizer",
+			"ru": "AWSrecognizer",
+			"pt": "AWSrecognizer",
+			"nl": "AWSrecognizer",
+			"fr": "AWSrecognizer",
+			"it": "AWSrecognizer",
+			"es": "AWSrecognizer",
+			"pl": "AWSrecognizer",
+			"zh-cn": "AWSrecognizer"
+		},
+		"desc": {
+			"en": "Image recognition using Amazon AWS",
+			"de": "Bilderkennung mit Amazon AWS",
+			"ru": "Распознавание изображений с помощью Amazon AWS",
+			"pt": "Reconhecimento de imagem usando o Amazon AWS",
+			"nl": "Beeldherkenning met Amazon AWS",
+			"fr": "Reconnaissance d'images à l'aide d'Amazon AWS",
+			"it": "Riconoscimento delle immagini tramite Amazon AWS",
+			"es": "Reconocimiento de imagen con Amazon AWS",
+			"pl": "Rozpoznawanie obrazów za pomocą Amazon AWS",
+			"zh-cn": "使用Amazon AWS进行图像识别"
+		},
+		"authors": [
+			"Joerg Zdarsky <joerg.zdarsky@gmx.de>"
+		],
+		"keywords": [
+			"image",
+			"recognition",
+			"amazon",
+			"aws"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "aws-recognizer.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/joergzdarsky/ioBroker.aws-recognizer/master/admin/aws-recognizer.png",
+		"readme": "https://github.com/joergzdarsky/ioBroker.aws-recognizer/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "communication",
+		"compact": true,
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
